@@ -21,7 +21,7 @@ public class Tabuleiro3 {
 			tabuleiro[TAMANHO - 1][i] = PAREDE_HORIZONTAL;
 	}
 
-		for (i = 1; i < TAMANHO - 1; i++) {// codigo que preenche internamento o tabuleiro com o caractere vazio.
+		for (i = 1; i < TAMANHO - 1; i++) {// codigo que preenche internamento o tabuleiro com o caractere vazio e cria uma linha vertical
 			for (j = 1; j < TAMANHO - 1; j++) {
 				if (i == j) {
 					tabuleiro[i][j] = PAREDE_INTERNA;
